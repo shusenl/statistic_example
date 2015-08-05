@@ -1,7 +1,6 @@
 #Full tutorial
 #https://darrenjw.wordpress.com/2010/08/15/metropolis-hastings-mcmc-algorithms/
 
-
 #what does dnorm() do
 #http://ww2.coastal.edu/kingw/statistics/R-tutorials/prob.html
 metrop1=function(n=1000,eps=0.5)

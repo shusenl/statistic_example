@@ -42,6 +42,7 @@ likelihood <- function(param){
     sd = param[3]
      
     pred = a*x + b
+    #compute likelihood, dnorm return the pdf at value y
     singlelikelihoods = dnorm(y, mean = pred, sd = sd, log = T)
     sumll = sum(singlelikelihoods)
     return(sumll)  
